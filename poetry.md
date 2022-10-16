@@ -2,7 +2,7 @@
 layout: page
 permalink: /poetry/
 title: poetry
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+description: 짧은 일기장
 ---
 
 <ul class="post-list">
