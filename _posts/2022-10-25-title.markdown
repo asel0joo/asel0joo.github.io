@@ -1,0 +1,24 @@
+---
+layout: post
+title: Spring
+date: 2022-10-25 12:13:00
+description: JSP 개요
+---
+
+# 2. JSP 개요
+<h2>01 JSP기술</h2>
+  <ul>
+    <li>JSP</li>
+    <li>동적 페이지를 만드는 기술</li>
+    <li> 서버 측 스크립트 언어</li>
+    <li>  HTML페이지 안에 자바코드를 포함시킬 수 있음</li>
+    <li>  서블릭 코드를 작성하는 편리한 방법 제공</li>
+    <li>  템플릿 데이터</li>
+    <li>  정적 데이터 → HTML, XML 형식의 텍스트</li>
+    <li>  그래도 출력되는 텍스트</li>
+    <li>  JSP 요소</li>
+    <li>  <% %></li>
+    <li>  동적인 데이터 추가</li>
+    <li>  JSP태그로 표현되는 프로그래밍적 요소</li>
+    <li>  적절한 Java코드로 번역되어 동적 컨텐츠가 만들어짐</li>
+  </ul>
