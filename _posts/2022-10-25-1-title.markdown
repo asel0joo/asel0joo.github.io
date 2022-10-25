@@ -4,30 +4,18 @@ title: a post with code2
 date: 2015-07-15 15:09:00
 description: an example of a blog post with some code
 ---
-This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag: 
-{% raw  %}
-{% highlight c++ %}  <br/> code code code <br/> {% endhighlight %}{% endraw %}
 
-Produces something like this: 
-
-{% highlight c++ %}
-
-int main(int argc, char const *argv[])
-{
-	string myString;
-
-	cout << "input a string: ";
-	getline(cin, myString);
-	int length = myString.length();
-	
-	char charArray = new char * [length];
-
-	charArray = myString;
-	for(int i = 0; i < length; ++i){
-		cout << charArray[i] << " ";
-	}
-	
-	return 0;
-}
-
-{% endhighlight %}
+01 JSP기술
+JSP
+동적 페이지를 만드는 기술
+서버 측 스크립트 언어
+HTML페이지 안에 자바코드를 포함시킬 수 있음
+서블릭 코드를 작성하는 편리한 방법 제공
+템플릿 데이터
+정적 데이터 → HTML, XML 형식의 텍스트
+그래도 출력되는 텍스트
+JSP 요소
+<% %>
+동적인 데이터 추가
+JSP태그로 표현되는 프로그래밍적 요소
+적절한 Java코드로 번역되어 동적 컨텐츠가 만들어짐
